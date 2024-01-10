@@ -10,12 +10,12 @@
       }
     },
     {
-      "identity" : "findmyiplibrary",
+      "identity" : "findmylibraryapp",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/murugesh8/FindMyIPLibrary",
+      "location" : "https://github.com/murugesh8/FindMyLibraryApp",
       "state" : {
         "branch" : "main",
-        "revision" : "e0e698f10ee25a0f8a7ca721ea420631967036f6"
+        "revision" : "2f883da06798612048442ab182f4c461bb4ba1fb"
       }
     }
   ],

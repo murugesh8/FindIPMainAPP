@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7847E2A22B4EEFCC0014CC0A /* FindMyIPLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 7847E2A12B4EEFCC0014CC0A /* FindMyIPLibrary */; };
 		78E42CF52B4EAB9400DFD17C /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E42CF42B4EAB9400DFD17C /* MainAppApp.swift */; };
 		78E42CF72B4EAB9400DFD17C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E42CF62B4EAB9400DFD17C /* ContentView.swift */; };
 		78E42CF92B4EAB9700DFD17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E42CF82B4EAB9700DFD17C /* Assets.xcassets */; };
@@ -14,9 +15,6 @@
 		78E42D062B4EAB9700DFD17C /* MainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E42D052B4EAB9700DFD17C /* MainAppTests.swift */; };
 		78E42D102B4EAB9700DFD17C /* MainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E42D0F2B4EAB9700DFD17C /* MainAppUITests.swift */; };
 		78E42D122B4EAB9700DFD17C /* MainAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E42D112B4EAB9700DFD17C /* MainAppUITestsLaunchTests.swift */; };
-		78E42D262B4EBB4300DFD17C /* FindMyIPLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 78E42D252B4EBB4300DFD17C /* FindMyIPLibrary */; };
-		78E42D292B4ED1B400DFD17C /* FindMyIPLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 78E42D282B4ED1B400DFD17C /* FindMyIPLibrary */; };
-		78E42D2B2B4ED20000DFD17C /* FindMyIPLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 78E42D2A2B4ED20000DFD17C /* FindMyIPLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E42D262B4EBB4300DFD17C /* FindMyIPLibrary in Frameworks */,
+				7847E2A22B4EEFCC0014CC0A /* FindMyIPLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E42D292B4ED1B400DFD17C /* FindMyIPLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E42D2B2B4ED20000DFD17C /* FindMyIPLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +154,7 @@
 			);
 			name = MainApp;
 			packageProductDependencies = (
-				78E42D252B4EBB4300DFD17C /* FindMyIPLibrary */,
+				7847E2A12B4EEFCC0014CC0A /* FindMyIPLibrary */,
 			);
 			productName = MainApp;
 			productReference = 78E42CF12B4EAB9400DFD17C /* MainApp.app */;
@@ -179,7 +175,6 @@
 			);
 			name = MainAppTests;
 			packageProductDependencies = (
-				78E42D282B4ED1B400DFD17C /* FindMyIPLibrary */,
 			);
 			productName = MainAppTests;
 			productReference = 78E42D012B4EAB9700DFD17C /* MainAppTests.xctest */;
@@ -200,7 +195,6 @@
 			);
 			name = MainAppUITests;
 			packageProductDependencies = (
-				78E42D2A2B4ED20000DFD17C /* FindMyIPLibrary */,
 			);
 			productName = MainAppUITests;
 			productReference = 78E42D0B2B4EAB9700DFD17C /* MainAppUITests.xctest */;
@@ -239,7 +233,7 @@
 			);
 			mainGroup = 78E42CE82B4EAB9400DFD17C;
 			packageReferences = (
-				78E42D242B4EBB4300DFD17C /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */,
+				7847E2A02B4EEFCC0014CC0A /* XCRemoteSwiftPackageReference "FindMyLibraryApp" */,
 			);
 			productRefGroup = 78E42CF22B4EAB9400DFD17C /* Products */;
 			projectDirPath = "";
@@ -610,9 +604,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		78E42D242B4EBB4300DFD17C /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */ = {
+		7847E2A02B4EEFCC0014CC0A /* XCRemoteSwiftPackageReference "FindMyLibraryApp" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/murugesh8/FindMyIPLibrary";
+			repositoryURL = "https://github.com/murugesh8/FindMyLibraryApp";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -621,19 +615,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		78E42D252B4EBB4300DFD17C /* FindMyIPLibrary */ = {
+		7847E2A12B4EEFCC0014CC0A /* FindMyIPLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 78E42D242B4EBB4300DFD17C /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */;
-			productName = FindMyIPLibrary;
-		};
-		78E42D282B4ED1B400DFD17C /* FindMyIPLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 78E42D242B4EBB4300DFD17C /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */;
-			productName = FindMyIPLibrary;
-		};
-		78E42D2A2B4ED20000DFD17C /* FindMyIPLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 78E42D242B4EBB4300DFD17C /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */;
+			package = 7847E2A02B4EEFCC0014CC0A /* XCRemoteSwiftPackageReference "FindMyLibraryApp" */;
 			productName = FindMyIPLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
